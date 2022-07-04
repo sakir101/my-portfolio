@@ -7,12 +7,16 @@ body{
 
 .intro-me{
     display: flex;
-    margin-bottom: 20px;
+    
     
 }
 
 .welcome-div{
     width: 50%;
+    
+}
+
+.intro{
     margin: 40px;
 }
 
@@ -49,4 +53,34 @@ h2{
     background-image: url(image/dream-bg.png);
     background-position: right 100px;
     background-repeat: no-repeat;
+}
+
+.full-stack{
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.exp1{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.exp-div {
+    margin-bottom: 100px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.baby-web{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
