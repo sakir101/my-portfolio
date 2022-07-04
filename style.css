@@ -1,12 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .intro-me{
     display: flex;
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    
 }
 
 .welcome-div{
@@ -21,8 +23,8 @@ span{
     color: orange;
 }
 
-img{
-    height: 700px;
+.img{
+    height: 600px;
 }
 
 a{
@@ -35,3 +37,16 @@ a{
     border-radius: 10px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+.dream-big{
+    padding-right: 50px;
+}
+
+.bg-img{
+    background-image: url(image/dream-bg.png);
+    background-position: right 100px;
+    background-repeat: no-repeat;
+}
